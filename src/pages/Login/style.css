@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+*, input, button {
+    font-family: 'Anton';
+}
+
+body {
+    background: #1b1b1b url('../../assets/bglogin.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased !important;
+  }
+
+  .AppLogin {
+    background-color: rgba(236, 29, 37, 0.9);
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .LoginContainer {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFFEFE;
+    max-width: 300px;
+    padding: 50px 90px;
+  }
+
+  .logo {
+      font-size: 2.25em;
+        background-color: #ec1d25;
+        padding: 0px 2px;
+        margin: 20px;
+        font-family: 'Anton';
+        text-transform: uppercase;
+        color: #FFFEFE;
+        padding: 5px 2px;
+  }
+
+.inputslogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+  .inputslogin > input {
+    font-size: 15px;
+    color: #424242;
+    background-color: #EEEEEE;
+    border: none;
+    margin: 5px;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+  }
+
+.inputslogin > input::placeholder {
+    text-transform: uppercase;
+    color: #616161;
+}
+
+.buttonslogin {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.signin {
+    border: 2px solid #FFFEFE;
+    margin: 5px;
+    background-color: #1b1b1b;
+    color: #FFFEFE;
+    font-size: 20px;
+    padding:5px 10px;
+}
+
+.signup {
+    border: 2px solid #FFFEFE;
+    margin: 5px;
+    background-color: #ec1d25;
+    color: #FFFEFE;
+    font-size: 20px;
+    padding:5px 10px;
+}
